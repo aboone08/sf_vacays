@@ -22,7 +22,7 @@ class SfVacays::Vacay
        
         vacay = self.new
         vacay.title = page.search('h3').xpath('text()').each.with_index(1) do |vacay, i|
-           puts "#{i}. #{vacay}"
+           puts "#{i}. #{vacay}".blue
         end
     end
 
