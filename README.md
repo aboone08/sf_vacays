@@ -1,8 +1,5 @@
-# SfVacays
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sf_vacays`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+# Autism Spectrum Family Friendly Vacations
+This is a Ruby Gem created to provide information to interested parties about top-rated Spectrum Family Friendly Vacation Destinations through the use of a Command Line Interface(CLI). The list of top-rated destinations are in alphabetical order taken from the [Applied Behavior Analysis Program Guide](https://www.appliedbehavioranalysisprograms.com/30-best-autism-friendly-vacation-ideas/) website. Users can choose a destination and find out more information on their destination of choice.
 
 ## Installation
 
@@ -22,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run: ```./bin/sf_vacays```
 
 ## Development
 
@@ -32,7 +29,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/<github username>/sf_vacays. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aboone08/sf_vacays. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +37,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the SfVacays project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/<github username>/sf_vacays/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the SfVacays project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/aboone08/sf_vacays/blob/master/CODE_OF_CONDUCT.md).
