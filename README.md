@@ -16,10 +16,11 @@ And then execute:
 Or install it yourself as:
 
     $ gem install sf_vacays
+    
 
 ## Usage
 
-Run: ```./bin/sf_vacays```
+Run: ```sf_vacays``` after installing the gem.
 
 ## Development
 
