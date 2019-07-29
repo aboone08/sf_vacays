@@ -5,4 +5,4 @@ require 'colorize'
 
 require_relative "sf_vacays/version"
 require_relative './sf_vacays/cli'
-require_relative './sf_vacays/vacay'
+require_relative './sf_vacays/scraper'
