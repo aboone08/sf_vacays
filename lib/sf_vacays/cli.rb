@@ -2,7 +2,6 @@
 class SfVacays::CLI
     def call
         list_vacays
-        info
         menu
         goodbye
     end
@@ -14,10 +13,6 @@ class SfVacays::CLI
         SfVacays::Scraper.scrape_vacay
     end
 
-    def info
-        SfVacays::Scraper.scrape_description
-    end
-    
     def menu
         input = nil
         while input != "exit"
@@ -25,7 +20,10 @@ class SfVacays::CLI
             input = gets.strip.downcase
                 if input.to_i > 0 && input.to_i <30
                     puts "*+*+*+*+*+*+*+*+*".light_blue
-                    puts info.text.green
+                    SfVacays::Scraper.scrape_details.each do |p|
+                        p
+                    end
+                    
                 elsif input == "list"
                     list_vacays
                 else
