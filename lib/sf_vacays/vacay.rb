@@ -1,22 +1,16 @@
 class SfVacays::Vacay
-    attr_accessor :title, :info, :vacay
+    attr_accessor :title, :info
 
     @@all = []
     
-    def initialize(title, info=nil)
+    def initialize(title=nil, info=nil)
         @title = title
-        @info = []
-        @vacay = []
-        @@all << vacay
-        save
+        @info = info
+        @@all << self
     end
     
     def self.all
         @@all
-    end
-
-    def self get_vacays
-        SfVacays::Scraper.scrape_website
     end
 
     def save 
