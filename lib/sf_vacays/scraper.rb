@@ -23,11 +23,5 @@ class SfVacays::Scraper
         end       
     end 
 
-    def self.scrape_website(info)
-        @page = Nokogiri::HTML(open("https://www.appliedbehavioranalysisprograms.com/30-best-autism-friendly-vacation-ideas/"))       
-        @page.info
-        binding.pry
-    end
-
 end
 
