@@ -17,4 +17,12 @@ class SfVacays::Vacay
         @@all << self
     end
 
+    def self.search_by_name(word)
+        @@all.each { |vacay|
+            if vacay.include?(word)
+                puts vacay 
+            end
+        }
+    end
+
 end
